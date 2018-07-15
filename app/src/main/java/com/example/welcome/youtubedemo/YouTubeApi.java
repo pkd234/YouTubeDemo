@@ -11,7 +11,7 @@ import retrofit2.http.Path;
 public class YouTubeApi {
     private static final String Url="https://www.googleapis.com/youtube/v3/";
     public static  PostService postService=null;
-    private static final String KEY="AIzaSyDWXKfWmmrWyjJpKNBhEpSlGqVyt3uBGCY";
+    private static final String KEY="";
 
     public static PostService getService(){
         if(postService==null){
